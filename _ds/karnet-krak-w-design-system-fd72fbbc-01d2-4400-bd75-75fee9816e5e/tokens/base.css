@@ -1,0 +1,12 @@
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg-page);color:var(--text-body);font:var(--type-body);-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5{margin:0;color:var(--text-strong);font-family:var(--font-display);font-weight:var(--fw-regular);letter-spacing:var(--ls-heading);text-wrap:balance}
+p{margin:0;text-wrap:pretty}
+a{color:var(--text-link);text-decoration:none;transition:color var(--dur-fast) var(--ease-standard)}
+a:hover{color:var(--text-link-hover)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px}
+::selection{background:var(--rose-300);color:var(--ink-900)}
+img{display:block;max-width:100%}
+/* Material Symbols Sharp baseline. The ligature name renders the glyph; the variation
+   settings keep it unfilled at weight 400 on the 24px optical size. */
+.ks-icon{font-family:"Material Symbols Sharp";font-weight:400;font-style:normal;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:"liga";-webkit-font-smoothing:antialiased;font-variation-settings:"FILL" 0,"wght" 400,"GRAD" 0,"opsz" 24;user-select:none}

@@ -1,0 +1,102 @@
+:root{
+  /* --- Rose: the brand colour. Values taken from the live stylesheet. --- */
+  --rose-400:#e6899e;   /* accent: section counts, nav, "orange" buttons */
+  --rose-500:#d57e91;   /* primary: buttons, search bar, active states */
+  --rose-600:#ba6d7f;
+  --rose-700:#915966;   /* button icon block, language bar */
+  --rose-800:#85515d;
+  --rose-900:#653e47;
+  --rose-300:#dcc5cb;
+  --rose-200:#eddade;   /* derived tint — placeholder fills */
+  --rose-100:#f8eef0;   /* derived tint — soft backgrounds */
+
+  /* --- Deep crimson: emphasis, alerts, "hot" promo overlays --- */
+  --crimson-500:#cc234c;
+  --crimson-600:#a31c3c;
+  --crimson-700:#80152f;
+  --pink-hot:#ff2c5e;
+
+  /* --- Ink & greys --- */
+  --ink-900:#232323;
+  --ink-800:#252525;
+  --ink-700:#323232;    /* body text, hover fill */
+  --ink-600:#454545;
+  --ink-500:#656565;
+  --ink-400:#757575;
+  --ink-300:#a5a5a5;
+  --ink-250:#959595;
+  --ink-200:#dadada;    /* default border */
+  --ink-100:#ececec;    /* page background, hairlines */
+  --ink-050:#f4f4f4;
+  --white:#ffffff;
+
+  --blue-facebook:#5b7bbc;
+
+  /* --- Semantic surfaces: grey page, white content panels --- */
+  --bg-page:var(--ink-100);
+  --bg-surface:var(--white);
+  --bg-surface-alt:var(--ink-050);
+  --bg-sunken:var(--ink-100);
+  --bg-inverse:var(--ink-700);
+  --bg-accent:var(--rose-500);
+  --bg-accent-soft:var(--rose-100);
+  --bg-overlay:rgba(35,35,35,.72);
+
+  /* --- Semantic text --- */
+  --text-strong:var(--ink-700);
+  --text-body:var(--ink-600);
+  --text-muted:var(--ink-400);
+  --text-faint:var(--ink-300);
+  --text-inverse:var(--white);
+  --text-accent:var(--rose-700);   /* WCAG AA na białym i szarym tle */
+  --text-link:var(--ink-700);
+  --text-link-hover:var(--rose-500);
+
+  /* --- Semantic borders --- */
+  --border-subtle:var(--ink-100);
+  --border-default:var(--ink-200);
+  --border-strong:var(--ink-700);
+  --border-accent:var(--rose-500);
+
+  /* --- Interactive: rose fills, ink hover (the site's signature inversion) --- */
+  --accent:var(--rose-500);
+  --accent-hover:var(--ink-700);
+  --accent-press:var(--rose-700);
+  --accent-contrast:var(--white);
+  --accent-icon-block:var(--rose-700);
+  --focus-ring:var(--rose-500);
+  --focus-ring-offset:var(--white);
+
+  /* --- Status --- */
+  --success:#4a7c59;--success-soft:#e4ede7;
+  --warning:#b8860b;--warning-soft:#f6eed8;
+  --danger:var(--crimson-600);--danger-soft:#f7e0e5;
+  --info:var(--blue-facebook);--info-soft:#e3e9f5;
+
+  /* --- Event categories: one hue per genre, all tuned to the rose's muted value and
+         chroma so a grid of tiles still reads as one family. --- */
+  --cat-festival:#c8623f;    /* burnt orange */
+  --cat-music:#d18a5c;       /* warm ochre */
+  --cat-theatre:#c2a44e;     /* yellow */
+  --cat-literature:#7fa86b;  /* green */
+  --cat-film:#5f9e9a;        /* teal */
+  --cat-exhibition:#6d8ec4;  /* blue */
+  --cat-metropolis:#8f7fbe;  /* violet */
+  --cat-other:#a97a9e;       /* plum */
+
+  --cat-festival-soft:#f7e9e2;
+  --cat-music-soft:#f8eee5;
+  --cat-theatre-soft:#f6f1de;
+  --cat-literature-soft:#eaf1e5;
+  --cat-film-soft:#e3efee;
+  --cat-exhibition-soft:#e6ecf6;
+  --cat-metropolis-soft:#ece9f4;
+  --cat-other-soft:#f3eaf1;
+  --cat-soft:var(--rose-200);
+}
+[data-theme="inverse"]{
+  --bg-page:var(--ink-700);--bg-surface:var(--ink-800);--bg-surface-alt:var(--ink-600);
+  --text-strong:var(--white);--text-body:var(--ink-100);--text-muted:var(--ink-300);
+  --border-subtle:var(--ink-600);--border-default:var(--ink-500);--border-strong:var(--ink-100);
+  --text-link:var(--white);--text-link-hover:var(--rose-400);--focus-ring-offset:var(--ink-700);
+}

@@ -1,0 +1,13 @@
+:root{
+  /* The live site is square (border-radius:0 in 52 of 57 declarations) and the system now
+     follows it exactly: every corner is a hard 90°. The named steps are kept so consumers
+     can reference a role, but they all resolve to 0. */
+  --radius-sharp:0px;
+  --radius-xs:0px;--radius-sm:0px;--radius-md:0px;--radius-lg:0px;--radius-xl:0px;--radius-pill:0px;
+  --radius-control:0px;
+  --radius-card:0px;
+  --radius-media:0px;
+  --radius-field:0px;
+  --radius-tag:0px;
+  --radius-icon-tile:0px;
+}

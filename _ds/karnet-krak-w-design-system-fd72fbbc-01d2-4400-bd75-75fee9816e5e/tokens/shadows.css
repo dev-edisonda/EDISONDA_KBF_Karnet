@@ -1,0 +1,13 @@
+:root{
+  /* The site is flat and border-led (#dadada hairlines, no shadows). Elevation here is
+     deliberately shallow and reserved for hover and overlays. */
+  --shadow-none:none;
+  --shadow-xs:0 1px 2px rgba(35,35,35,.06);
+  --shadow-sm:0 2px 6px rgba(35,35,35,.07);
+  --shadow-md:0 8px 20px -6px rgba(35,35,35,.16);
+  --shadow-lg:0 20px 48px -14px rgba(35,35,35,.26);
+  --shadow-focus:0 0 0 3px rgba(213,126,145,.4);
+  --shadow-inset-hairline:inset 0 0 0 1px var(--border-default);
+  --scrim-bottom:linear-gradient(to top, rgba(35,35,35,.86) 0%, rgba(35,35,35,.42) 46%, rgba(35,35,35,0) 100%); /* @kind other */
+  --blur-panel:saturate(1.2) blur(12px); /* @kind other */
+}

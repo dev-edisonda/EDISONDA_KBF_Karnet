@@ -1,0 +1,11 @@
+/* The site self-hosts PT Sans (Regular/Bold/Italic/BoldItalic TTF) and DM Serif Display
+   (Regular/Italic TTF) from /fonts/. Both are the same families Google Fonts serves, so the
+   CDN import below is equivalent; swap it for local @font-face rules if you have the binaries.
+   The site also ships two Fontello icon fonts (fontello, fontello2) which were NOT supplied —
+   see the ICONOGRAPHY section of readme.md. */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* Iconography: Material Symbols SHARP — the sharp cut of Google's set, drawn with square
+   terminals and hard 90° corners, matching the system's 0px radii. Replaces the earlier
+   Lucide substitution, whose round caps are baked into each icon definition. */
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block");

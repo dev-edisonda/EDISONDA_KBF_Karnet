@@ -1,0 +1,18 @@
+:root{
+  --space-0:0px;--space-1:2px;--space-2:4px;--space-3:8px;--space-4:11px;--space-5:16px;
+  --space-6:19px;--space-7:24px;--space-8:30px;--space-9:40px;--space-10:50px;--space-11:60px;
+  --space-12:80px;--space-13:100px;--space-14:130px;
+
+  --gutter:var(--space-7);
+  --section-y:var(--space-10);      /* section headers sit on 50px top padding */
+  --card-pad:var(--space-6);
+  --control-pad-x:var(--space-6);
+  --control-h-sm:40px;              /* .filter-button */
+  --control-h-md:50px;              /* .button */
+  --control-h-lg:60px;              /* .btn / primary CTA */
+  --icon-block:var(--control-h-md); /* trailing icon block on split buttons */
+  --hit-min:44px;
+
+  --container-max:1250px;--container-narrow:720px;--container-wide:1450px;
+  --sidebar-w:280px;
+}
