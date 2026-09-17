@@ -1,0 +1,146 @@
+{
+  "site": {
+    "name": "KARNET",
+    "tagline": "Kultura w Krakowie, sprawdzona przez ludzi"
+  },
+  "nav": {
+    "home": "Start",
+    "events": "Wydarzenia",
+    "places": "Miejsca",
+    "articles": "Artykuły",
+    "team": "Zespół",
+    "magazine": "Magazyn",
+    "favourites": "Ulubione",
+    "more": "Więcej"
+  },
+  "home": {
+    "heroCta": "Zobacz szczegóły",
+    "searchPlaceholder": "Wpisz tytuł, miejsce lub organizatora",
+    "searchCta": "Szukaj",
+    "categoriesTitle": "Przeglądaj według kategorii",
+    "quickDatesTitle": "Kiedy masz czas?",
+    "editorsPicksTitle": "Polecane przez redakcję",
+    "editorsPicksSubtitle": "Wybrane ręcznie, nie algorytmem",
+    "freeEntryTitle": "Wstęp wolny",
+    "seeAll": "Zobacz wszystkie",
+    "articlesTitle": "Z redakcji",
+    "magazineTitle": "Najnowszy numer",
+    "readIssue": "Czytaj ten numer",
+    "placesTitle": "Odkrywaj miejsca",
+    "teamTeaserTitle": "Karnet tworzą ludzie",
+    "teamTeaserBody": "Za każdą rekomendacją stoi ktoś z imienia i nazwiska — poznaj zespół redakcji.",
+    "teamTeaserCta": "Poznaj zespół",
+    "newsletterTitle": "Cotygodniowy przegląd kultury",
+    "newsletterBody": "Najciekawsze wydarzenia tygodnia prosto na Twoją skrzynkę.",
+    "newsletterPlaceholder": "Twój adres e-mail",
+    "newsletterCta": "Zapisz się",
+    "newsletterSuccess": "Dziękujemy! Sprawdź swoją skrzynkę, aby potwierdzić zapis."
+  },
+  "events": {
+    "title": "Wydarzenia",
+    "filters": "Filtry",
+    "search": "Szukaj",
+    "viewList": "Lista",
+    "viewMap": "Mapa",
+    "applyFilters": "Pokaż wyniki",
+    "clearFilters": "Wyczyść filtry",
+    "noResults": "Nie znaleźliśmy wydarzeń pasujących do wybranych filtrów.",
+    "noResultsCta": "Wyczyść filtry i spróbuj ponownie",
+    "freeOnly": "Tylko wstęp wolny",
+    "accessibility": "Dostępność",
+    "eventCategory": "Kategoria wydarzenia",
+    "placeCategory": "Rodzaj miejsca",
+    "dateRange": "Zakres dat",
+    "from": "Od",
+    "to": "Do",
+    "resultsCount": "{count} wydarzeń",
+    "nearMe": "W pobliżu mnie"
+  },
+  "quickDates": {
+    "today": "Dziś",
+    "tomorrow": "Jutro",
+    "day-after": "Pojutrze",
+    "weekend": "W ten weekend",
+    "next-week": "W przyszłym tygodniu"
+  },
+  "event": {
+    "freeEntry": "Wstęp wolny",
+    "buyTickets": "Kup bilet",
+    "addToCalendar": "Dodaj do kalendarza",
+    "share": "Udostępnij",
+    "copyLink": "Kopiuj link",
+    "linkCopied": "Link skopiowany",
+    "saveToFavourites": "Dodaj do ulubionych",
+    "removeFromFavourites": "Usuń z ulubionych",
+    "accessibilityPanel": "Dostępność",
+    "accessibilityUnknownNote": "Brak odznaki nie oznacza „niedostępne” — może oznaczać, że nie zostało to jeszcze potwierdzone.",
+    "relatedArticles": "Powiązane artykuły",
+    "aboutPlace": "O miejscu",
+    "pickedBy": "Wybrane przez",
+    "editorsPick": "Wybór redakcji",
+    "checkedByEditors": "Sprawdzone przez redakcję u organizatora"
+  },
+  "accessibility": {
+    "wheelchair_yes": "Dla wózków",
+    "wheelchair_partial": "Częściowo dla wózków",
+    "wheelchair_no": "Niedostępne dla wózków",
+    "induction_loop": "Pętla indukcyjna",
+    "captions": "Napisy",
+    "audio_description": "Audiodeskrypcja",
+    "quiet_zone": "Strefa wyciszenia",
+    "accessible_toilet": "Toaleta dostępna",
+    "accessible_parking": "Parking dostępny",
+    "notes": "Uwagi",
+    "statementTitle": "Deklaracja dostępności",
+    "filterLabel": "Filtruj po dostępności"
+  },
+  "favourites": {
+    "title": "Ulubione",
+    "empty": "Nie masz jeszcze żadnych ulubionych wydarzeń.",
+    "emptyCta": "Przeglądaj wydarzenia",
+    "exportAll": "Eksportuj wszystkie do kalendarza",
+    "accountPrompt": "Załóż konto, aby nie stracić ulubionych po wyczyszczeniu przeglądarki.",
+    "accountPromptCta": "Załóż konto (wkrótce)"
+  },
+  "team": {
+    "title": "Zespół",
+    "subtitle": "Karnet redagują konkretne osoby — poznaj je i sprawdź, co ostatnio napisały.",
+    "articlesBy": "Artykuły autora"
+  },
+  "magazine": {
+    "title": "Magazyn",
+    "currentIssue": "Aktualny numer",
+    "archive": "Archiwum numerów",
+    "readOnline": "Czytaj online",
+    "issueNumber": "Numer {number}"
+  },
+  "places": {
+    "title": "Miejsca",
+    "upcomingEvents": "Nadchodzące wydarzenia w tym miejscu",
+    "categoriesTitle": "Rodzaje miejsc"
+  },
+  "articles": {
+    "title": "Artykuły",
+    "types": {
+      "news": "Aktualności",
+      "preview": "Zapowiedź",
+      "interview": "Wywiad",
+      "review": "Recenzja",
+      "magazine": "Magazyn"
+    },
+    "relatedEvents": "Wydarzenia powiązane z tym artykułem"
+  },
+  "footer": {
+    "about": "Karnet to przewodnik po kulturze w Krakowie, redagowany przez ludzi, nie algorytm.",
+    "contact": "Kontakt",
+    "social": "Social media",
+    "accessibilityStatement": "Deklaracja dostępności",
+    "allRightsReserved": "Wszelkie prawa zastrzeżone."
+  },
+  "common": {
+    "loading": "Ładowanie…",
+    "backToList": "Wróć do listy",
+    "readMore": "Czytaj dalej",
+    "language": "Język"
+  }
+}

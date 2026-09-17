@@ -1,0 +1,146 @@
+{
+  "site": {
+    "name": "KARNET",
+    "tagline": "Kraków culture, checked by real people"
+  },
+  "nav": {
+    "home": "Home",
+    "events": "Events",
+    "places": "Places",
+    "articles": "Articles",
+    "team": "Team",
+    "magazine": "Magazine",
+    "favourites": "Favourites",
+    "more": "More"
+  },
+  "home": {
+    "heroCta": "See details",
+    "searchPlaceholder": "Type a title, place, or organizer",
+    "searchCta": "Search",
+    "categoriesTitle": "Browse by category",
+    "quickDatesTitle": "When are you free?",
+    "editorsPicksTitle": "Recommended by the editors",
+    "editorsPicksSubtitle": "Hand-picked, not algorithm-sorted",
+    "freeEntryTitle": "Free entry",
+    "seeAll": "See all",
+    "articlesTitle": "From the editors",
+    "magazineTitle": "Latest issue",
+    "readIssue": "Read this issue",
+    "placesTitle": "Explore places",
+    "teamTeaserTitle": "Karnet is made by people",
+    "teamTeaserBody": "Every recommendation has a name behind it — meet the editorial team.",
+    "teamTeaserCta": "Meet the team",
+    "newsletterTitle": "Your weekly culture digest",
+    "newsletterBody": "The best of the week's events, straight to your inbox.",
+    "newsletterPlaceholder": "Your email address",
+    "newsletterCta": "Subscribe",
+    "newsletterSuccess": "Thanks! Check your inbox to confirm your subscription."
+  },
+  "events": {
+    "title": "Events",
+    "filters": "Filters",
+    "search": "Search",
+    "viewList": "List",
+    "viewMap": "Map",
+    "applyFilters": "Show results",
+    "clearFilters": "Clear filters",
+    "noResults": "We couldn't find any events matching your filters.",
+    "noResultsCta": "Clear filters and try again",
+    "freeOnly": "Free entry only",
+    "accessibility": "Accessibility",
+    "eventCategory": "Event category",
+    "placeCategory": "Place type",
+    "dateRange": "Date range",
+    "from": "From",
+    "to": "To",
+    "resultsCount": "{count} events",
+    "nearMe": "Near me"
+  },
+  "quickDates": {
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "day-after": "Day after",
+    "weekend": "This weekend",
+    "next-week": "Next week"
+  },
+  "event": {
+    "freeEntry": "Free entry",
+    "buyTickets": "Buy tickets",
+    "addToCalendar": "Add to calendar",
+    "share": "Share",
+    "copyLink": "Copy link",
+    "linkCopied": "Link copied",
+    "saveToFavourites": "Save to favourites",
+    "removeFromFavourites": "Remove from favourites",
+    "accessibilityPanel": "Accessibility",
+    "accessibilityUnknownNote": "No badge doesn't mean \"not accessible\" — it may just mean this hasn't been confirmed yet.",
+    "relatedArticles": "Related articles",
+    "aboutPlace": "About this place",
+    "pickedBy": "Picked by",
+    "editorsPick": "Editors' pick",
+    "checkedByEditors": "Checked by our editors with the organiser"
+  },
+  "accessibility": {
+    "wheelchair_yes": "Wheelchair accessible",
+    "wheelchair_partial": "Partially wheelchair accessible",
+    "wheelchair_no": "Not wheelchair accessible",
+    "induction_loop": "Induction loop",
+    "captions": "Captions",
+    "audio_description": "Audio description",
+    "quiet_zone": "Quiet zone",
+    "accessible_toilet": "Accessible toilet",
+    "accessible_parking": "Accessible parking",
+    "notes": "Notes",
+    "statementTitle": "Accessibility statement",
+    "filterLabel": "Filter by accessibility"
+  },
+  "favourites": {
+    "title": "Favourites",
+    "empty": "You don't have any favourited events yet.",
+    "emptyCta": "Browse events",
+    "exportAll": "Export all to calendar",
+    "accountPrompt": "Create an account so you don't lose your favourites if you clear your browser.",
+    "accountPromptCta": "Create an account (coming soon)"
+  },
+  "team": {
+    "title": "Team",
+    "subtitle": "Karnet is edited by real people — meet them and see what they've written lately.",
+    "articlesBy": "Articles by"
+  },
+  "magazine": {
+    "title": "Magazine",
+    "currentIssue": "Current issue",
+    "archive": "Issue archive",
+    "readOnline": "Read online",
+    "issueNumber": "Issue {number}"
+  },
+  "places": {
+    "title": "Places",
+    "upcomingEvents": "Upcoming events at this place",
+    "categoriesTitle": "Place types"
+  },
+  "articles": {
+    "title": "Articles",
+    "types": {
+      "news": "News",
+      "preview": "Preview",
+      "interview": "Interview",
+      "review": "Review",
+      "magazine": "Magazine"
+    },
+    "relatedEvents": "Events related to this article"
+  },
+  "footer": {
+    "about": "Karnet is a guide to culture in Kraków, edited by people — not an algorithm.",
+    "contact": "Contact",
+    "social": "Social media",
+    "accessibilityStatement": "Accessibility statement",
+    "allRightsReserved": "All rights reserved."
+  },
+  "common": {
+    "loading": "Loading…",
+    "backToList": "Back to list",
+    "readMore": "Read more",
+    "language": "Language"
+  }
+}
