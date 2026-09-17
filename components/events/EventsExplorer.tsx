@@ -2,13 +2,13 @@
 
 import { useEffect, useMemo, useState } from "react";
 import dynamic from "next/dynamic";
-import { useRouter, usePathname } from "next/navigation";
+import { useRouter, usePathname, useSearchParams } from "next/navigation";
 import { Filter, List, Map as MapIcon, Search } from "lucide-react";
 import { EventCard } from "@/components/cards/EventCard";
 import { FilterBottomSheet } from "@/components/events/FilterBottomSheet";
 import { getQuickDateOptions } from "@/lib/quick-dates";
 import { filterEvents } from "@/lib/data";
-import { eventFiltersToSearchParams, countActiveFilters, type EventFilterState } from "@/lib/filters";
+import { eventFiltersToSearchParams, parseEventFilters, countActiveFilters, type EventFilterState } from "@/lib/filters";
 import { interpolate, pickLocale, type Dictionary } from "@/lib/i18n";
 import type { Locale } from "@/lib/types";
 
@@ -17,16 +17,19 @@ const MapView = dynamic(() => import("@/components/events/MapView").then((m) => 
 });
 
 export function EventsExplorer({
-  initialFilters,
   locale,
   dict,
 }: {
-  initialFilters: EventFilterState;
   locale: Locale;
   dict: Dictionary;
 }) {
   const router = useRouter();
   const pathname = usePathname();
+  // Filter/search state lives in the URL (query params) so results are shareable
+  // and bookmarkable (PRD §8.1). Static export has no server to read the query
+  // string, so the client parses it itself from the very first render.
+  const searchParams = useSearchParams();
+  const initialFilters = useMemo(() => parseEventFilters(searchParams), [searchParams]);
   const [filters, setFilters] = useState<EventFilterState>(initialFilters);
   const [sheetOpen, setSheetOpen] = useState(false);
   const [q, setQ] = useState(initialFilters.q ?? "");

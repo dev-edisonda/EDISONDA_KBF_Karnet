@@ -5,6 +5,8 @@ import { SITE_URL } from "@/lib/seo";
 
 const STATIC_PATHS = ["", "/events", "/places", "/articles", "/team", "/magazine", "/deklaracja-dostepnosci"];
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
 
